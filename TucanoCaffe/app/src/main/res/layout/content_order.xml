@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|left"
+    tools:context=".ProductActivity"
+    tools:showIn="@layout/activity_product">
+
+    <TextView
+        android:id="@+id/afterOrderMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="@string/afterOrderMessage"
+    />
+
+    <TextView
+        android:id="@+id/tableNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border_fuxia"
+        android:padding="20px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Product"
+        android:background="@drawable/border_fuxia"
+        android:padding="20px"
+        />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Client's Message"
+        android:background="@drawable/border_fuxia"
+        android:padding="20px"
+        />
+
+    <TextView
+        android:id="@+id/clientMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/backToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:text="Back to Menu"
+        android:onClick="onBackToMenu"
+        android:background="@drawable/border_green"
+        android:padding="30px"
+        />
+
+</LinearLayout>
